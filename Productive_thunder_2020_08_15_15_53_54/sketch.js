@@ -24,7 +24,7 @@ function setup() {
   monkey=createSprite(200,370,20,50)
   monkey.addAnimation("monkey",monkey_running)
   monkey.scale=.09
-  
+  monkey.setCollider("circle",0,0,80)
   
   
   obstacleGroup=new Group();
